@@ -1,6 +1,8 @@
+package project3;
+
 import java.math.BigDecimal;
 
-public class Developer extends Employee{
+public class Developer extends Employee {
     public Developer(String name, Long id, BigDecimal salary, String developerLanguage) {
         super(name, id, salary);
         this.developerLanguage = developerLanguage;
